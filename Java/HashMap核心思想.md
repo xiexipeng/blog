@@ -1,3 +1,16 @@
+---
+title: HashMap核心思想
+date: 2019-07-13 18:07:00  
+tags: 
+- Java
+categories: Java
+keywords:  'HashMap'
+description: HashMap的底层原理、核心思想和使用注意事项
+cover:  https://s2.ax1x.com/2019/07/13/Z4wsmD.jpg
+abbrlink: 
+top_img: https://i.loli.net/2019/07/13/5d29b147aedc855326.jpg
+---
+
 # HashMap核心思想
 
 > HashMap作为我们在日常开发中使用频率较高的一种集合，本文将介绍HashMap的基本原理和它的核心思想，以及在并发场景下的线程安全问题。
@@ -47,7 +60,7 @@ static final int hash(Object key) {
 
 ```
 0010 1010 10001101
-				&
+		&
 0000 0000 00001111
 ```
 
