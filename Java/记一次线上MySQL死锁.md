@@ -75,4 +75,6 @@ MySQL的锁类型大类可以分为两种，分别是**`只读锁`**和**`读写
 1. `select * from lock_demo where id = 1 for update;`
 2. `select * from lock_demo where id = 1 lock in share mode;`
 
+
+
 ## MySQL死锁场景
